@@ -19,7 +19,6 @@ wdir = 'weights' + os.sep  # weights dir
 last = wdir + 'last.pt'
 best = wdir + 'best.pt'
 results_file = 'results.txt'
-x
 # Hyperparameters (results68: 59.9 mAP@0.5 yolov3-spp-416) https://github.com/ultralytics/yolov3/issues/310
 
 hyp = {'giou': 1.0,  # giou loss gain
